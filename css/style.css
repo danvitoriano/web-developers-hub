@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap);
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -25,7 +27,7 @@ header, section, footer{
     max-width: 600px;
 }
 .button{
-    background-color: blue;
+    background-color: rgb(146, 37, 37);
     color: white;
     padding: 1em;
     margin: 1em 0;
@@ -33,3 +35,37 @@ header, section, footer{
     text-decoration: none;
     border-radius: 0.5em;
 }
+
+h1{
+    text-align: center;
+    padding-left: 10px;
+    font-family: 'Raleway';
+}
+
+h2{
+    text-align: center  
+    background-color: #white;
+    font-size: small    ;
+    padding-left: 10px;
+    font-family: 'Raleway';
+}
+
+.video-container {
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.link-footer{
+  
+        font-weight: bold;
+    
+}    
+
+a {
+    color: white;
+  }
