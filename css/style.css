@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(134, 177, 243);;
 }
 .menu ul{
     background-color: #CCC;
@@ -32,4 +33,14 @@ header, section, footer{
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+}
+
+.sobre_mim{
+    
+}
+
+.contato{
+    background-color: #CCC;
+    margin-top: 197px;
+    font-size: 18px;
 }
