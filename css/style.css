@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(#a7a5a5,  #ffffff, #a7a5a5);
 }
 .menu ul{
     background-color: #CCC;
@@ -22,7 +23,7 @@ header, section, footer{
 }
 #imagem-perfil{
     width: 100%;
-    max-width: 600px;
+    max-width: 200px;
 }
 .button{
     background-color: blue;
@@ -32,4 +33,12 @@ header, section, footer{
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+}
+
+footer {
+    background-color: #CCC;
+}
+
+h2 {
+    font-size: 30px;
 }
