@@ -3,10 +3,10 @@ body{
     font-family: 'Chivo Mono', monospace;
     margin: 0;
     padding: 0;
-    background-color: rgb(170, 170, 170);
+    background-color: rgba(170, 170, 170, 0.658);
 }
 .menu ul{
-    background-color: rgba(0, 47, 255, 0.699);
+    background-color: rgba(0, 255, 136, 0.699);
     margin: 0;
     padding: 2em;
 }
@@ -38,6 +38,15 @@ header, section, footer{
 .button2{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+    padding: 1.2em;
+    margin: 1.2em 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
+.button3{
+    background-color: rgb(73, 0, 141);
+    color: rgb(183, 0, 255);
     padding: 1.2em;
     margin: 1.2em 0;
     display: inline-block;
