@@ -28,24 +28,26 @@ body {
 .card {
     display: flex;
     background-color: white;
-    height: 400px;
+    min-height: 400px;
     width: 800px;
     border-radius: 10px;
     justify-content: space-evenly;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 50px;
 }
 
 .card img {
-    height: 85%;
-    width: 95%;
+    height: 75%;
+    width: 85%;
     margin-top: 9%;
     border-radius: 8px;
+    margin-left: 20px;
 }
 
 .text {
     font-family: "Ubuntu", sans-serif;
     margin-top: 5%;
-    width: 200px;
+    width: 300px;
 }
 
 .links li {
@@ -56,4 +58,11 @@ body {
     color: #000000;
     display: flex;
     align-items: center;
+    margin-left: 50px;
+}
+
+.links_app {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
 }
