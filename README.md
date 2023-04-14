@@ -2,6 +2,8 @@
 
 Projeto com links para perfis de web developers disponíveis para contratação em São Paulo.
 
+Adicione uma página com seu perfil para divulgarmos o trabalho de estudantes de Responsive Web Development, e quem sabe, uma futura contratação?
+
 ## Como adicionar meu perfil?
 
 1. Faça um fork do repositório para a sua conta GitHub
