@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 .menu ul{
-    background-color: #CCC;
+    background-color: rgba(0, 110, 255, 0.459);
     margin: 0;
     padding: 2em;
 }
@@ -14,22 +14,26 @@ body{
 }
 .menu li a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 header, section, footer{
     padding: 0 2em;
 }
 #imagem-perfil{
-    width: 100%;
-    max-width: 600px;
+    width: 50%;
+    max-width: 200px;
+    border-radius: 1000%;
 }
 .button{
-    background-color: rgb(0, 0, 255);
-    color: white;
+    background-color: rgba(0, 110, 255, 0.459);
+    color: rgb(255, 255, 255);
     padding: 1em;
     margin: 1em 0;
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+}
+
+.button{
 }
