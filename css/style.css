@@ -25,11 +25,58 @@ header, section, footer{
     max-width: 600px;
 }
 .button{
-    background-color: blue;
+    background-color: rgb(168, 167, 167);
     color: white;
     padding: 1em;
     margin: 1em 0;
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+    width: 400px;
+    height: 20px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer"
+}
+
+.titulo{
+    text-align: center;
+}
+
+.isa{
+    width: 600px;
+    height: 800px;
+    margin-left: 40px;
+}
+
+.nome{
+    margin-left: 220px;   
+}
+
+p{
+    text-align: justify;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagisa{
+    background-color: #CCC;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.contato{
+    text-align: justify;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
