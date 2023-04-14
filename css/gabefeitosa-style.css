@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: darkgray;
+}
+.menu{
+    background-color: gray;
+    font-size: 2em ;
+    font-style: normal;
+}
+
+.cabeçalho{
+    text-align: center;
+}
+.foto{
+    background-size: auto;
+    background-position: center center;
+}
