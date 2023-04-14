@@ -19,8 +19,9 @@ body{
     font-weight: bold;
 }
 header, section, footer{
-    padding: 0 2em;
+    padding: 0 1em;
 }
+
 #imagem-perfil{
     width: 100%;
     max-width: 200px;
@@ -40,5 +41,5 @@ footer {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
