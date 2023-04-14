@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Chivo Mono', monospace;
     margin: 0;
     padding: 0;
+    background-color: rgb(170, 170, 170);
 }
 .menu ul{
-    background-color: #CCC;
+    background-color: rgba(0, 47, 255, 0.699);
     margin: 0;
     padding: 2em;
 }
