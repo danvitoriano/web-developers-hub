@@ -3,6 +3,10 @@ body{
     margin: 0;
     padding: 0;
 }
+.texto-centralizado{
+    text-align: center;
+}
+
 .menu ul{
     background-color: #CCC;
     margin: 0;
@@ -21,10 +25,10 @@ header, section, footer{
     padding: 0 2em;
 }
 #imagem-perfil{
-    width: 100%;
+    width: 40%;
     max-width: 600px;
 }
-.button{
+.button1{
     background-color: blue;
     color: white;
     padding: 1em;
@@ -32,4 +36,34 @@ header, section, footer{
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+}
+.button2{
+    background-color:rgb(53, 53, 53);
+    color: white;
+    padding: 1em;
+    margin: 1em 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
+
+footer{
+    background-color: #CCC;
+    margin: 0;
+    padding: 2em;
+}
+/* ----------- */
+
+/* ALTERAR TAMANHO DA FOTO NO CSS 
+
+Estilizar topo 
+Estilizar spans*/
+
+.texto-cinza{
+    color: rgb(88, 88, 88);
+}
+
+.texto-negrito, texto-italico{
+    font-style: italic;
+    font-weight: bold;
 }
