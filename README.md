@@ -15,3 +15,9 @@ Adicione uma página com seu perfil para divulgarmos o trabalho de estudantes de
 7. Envie o link do seu repositório pelo Teams no menu Tarefa (Check Point 1)
 
 Não esqueça de configurar o seu git com --config no terminal do seu VS Code para commitar!
+
+ADICIONAL:
+
+- Se quiser abrir uma Pull Request para o meu repositório original o tutorial está aqui: 
+
+https://danvitoriano.medium.com/contribuindo-para-projetos-open-source-5453686f8d8d
