@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 .menu ul{
-    background-color: #CCC;
+    background-color: rgb(252, 231, 251);
     margin: 0;
     padding: 2em;
 }
@@ -14,15 +14,16 @@ body{
 }
 .menu li a{
     text-decoration: none;
-    color: black;
+    color: rgb(133, 28, 77);
     font-weight: bold;
 }
 header, section, footer{
     padding: 0 2em;
 }
 #imagem-perfil{
-    width: 100%;
-    max-width: 600px;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 50%;
 }
 .button{
     background-color: blue;
