@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -32,4 +34,37 @@ header, section, footer{
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+}
+.p-kelvin{
+    font-family: 'Roboto Slab';
+    padding: 0 3em;
+}
+.footer-kelvin{
+    padding: 0.5em 3em;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-family: 'Roboto Slab';
+    padding: 1em;
+}
+.li-kelvin{
+    font-family: 'Roboto Slab';
+    padding: 0 2em;
+}
+fieldset {
+    font-family: 'Roboto Slab';
+    background-color: #CCC;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#KelvinPerfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 0 3em;
+    object-fit: cover;
 }
