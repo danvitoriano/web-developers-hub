@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
 }
 .menu ul{
-    background-color: #CCC;
+    background: rgb(43,28,19);
+    background: linear-gradient(267deg, rgba(43,28,19,1) 0%, rgba(94,52,21,1) 28%, rgba(103,77,41,1) 49%, rgba(173,130,80,1) 74%, rgba(190,141,85,1) 100%);
     margin: 0;
     padding: 2em;
 }
@@ -20,16 +24,25 @@ body{
 header, section, footer{
     padding: 0 2em;
 }
+
+.meu_pa{
+    text-align:left;
+}
+
 #imagem-perfil{
-    width: 100%;
-    max-width: 600px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 1px;
+    
 }
 .button{
-    background-color: blue;
+    background-color: #ad8250;
     color: white;
     padding: 1em;
-    margin: 1em 0;
-    display: inline-block;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     border-radius: 0.5em;
 }
