@@ -1,35 +1,176 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+*{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-.menu ul{
-    background-color: #CCC;
-    margin: 0;
-    padding: 2em;
+.banner1{
+    width: 100%;
+    height: 100vh;  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/490129.jpg);
+    background-size: cover;
+    background-position: center;
 }
-.menu li{
-    display: inline;
-    padding: 0 1em 0 0;
+.banner2{
+    width: 100%;
+    height: 100vh;  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/web.jpg);
+    background-size: cover;
+    background-position: center;
 }
-.menu li a{
+.banner3{
+    width: 100%;
+    height: 100vh;  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/developer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner1 header, .banner1 section, .banner1 footer, .banner2 header, .banner2 section, .banner2 footer{
+    width: 96%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+h1{
+    font-size: 70px;
+    margin-top: -120px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+section{
+    margin: 20px auto;
+    margin-top: 40px;
+    font-weight: 100;
+    line-height: 25px;
+}
+footer{
+    margin-top: 120px;
+}
+footer a{
+    color: lightgreen;
+}
+.menu{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.menu ul li a{
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.menu ul li:hover::after{
+    width: 100%;
 }
 header, section, footer{
     padding: 0 2em;
 }
+.section ul li a{
+    color: lightgreen;
+}
+button{
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 5px 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid mediumseagreen ;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+   
+}
+span{
+    background: mediumseagreen;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+} 
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
 #imagem-perfil{
     width: 100%;
-    max-width: 600px;
+    max-width: 350px;
+    border-radius: 20px;
 }
-.button{
-    background-color: blue;
-    color: white;
-    padding: 1em;
-    margin: 1em 0;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0.5em;
+.banner3 header, .section h2, #imagem-perfil, .section .button{
+    display: flex;
+    flex-direction: column;
+}
+.banner3 header{
+    color: #fff;
+    margin-top: 100px;
+    align-items: center;
+}
+.section h2{
+    color: #fff;
+    margin-left: 80px;
+}
+.section .button{
+    margin-top: 10px;
+    margin-left: 130px;
+}
+.section .button .linkedin{
+    width: 100%;
+    max-width: 100px;
+    border-radius: 10px;
+}
+.section p{
+    color: #fff;
+}
+
+.section .p{
+    position: relative;
+    margin-left: 380px;
+    margin-top: -550px;
+}
+.section footer{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.section .p1{
+    position: relative;
+    margin-left: 380px;
+    margin-top: -450px;
 }
