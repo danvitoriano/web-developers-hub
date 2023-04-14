@@ -75,3 +75,15 @@ footer{
     background-color: #CCC;
 }
 
+.text {
+    text-align: center;
+    padding-top: 20%;
+}
+
+label, input {
+    margin: 8px;
+}
+#feedback {
+    padding: 20px;
+}
+
