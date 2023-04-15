@@ -1,0 +1,97 @@
+@font-face {
+    font-family: poppinsregular;
+    src: url(Poppins-Regular.ttf);
+  }
+
+@font-face {
+    font-family: poppinsbold;
+    src: url(Poppins-Bold.ttf);
+  }
+
+*{
+    font-family: poppinsregular;
+}
+
+#menu{
+    background-color: rgb(166, 170, 168);
+    margin: 0;
+}
+
+#fotodiogo{
+    width: 400px;
+    height: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu li{
+    padding-top: 10px;
+    font-family: poppinsregular;
+    display: inline-flex;
+    color: rgb(172, 172, 172);
+}
+
+#menu li :hover{
+    color: black;
+}
+
+
+#menu{
+
+    width: auto;
+    height: 50px;
+}
+
+
+#linkedinlink :hover{
+    color: rgb(0, 0, 0);
+}
+
+#linkdeinlink{
+    color: aqua;
+}
+
+.linksmenu{
+    margin-left: 50px;
+}
+
+#descricao{
+    width: auto;
+    height: 210px;
+    background-color: rgb(166, 170, 168);
+    border-radius: 5px;
+}
+
+#container{
+
+    height: 900px;
+    width: auto;
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+li{
+    color: white;
+}
+
+#email{
+    color: black;
+}
+
+#email:hover{
+    color: rgb(129, 129, 129);
+}
+
+
+#githubbotao{
+    background-color: aqua;
+    width: 80px;
+    height: 30px;
+}
