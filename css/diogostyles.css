@@ -20,6 +20,7 @@
 #fotodiogo{
     width: 400px;
     height: 500px;
+    border: 5px inset rgb(139, 139, 139);
 }
 
 a{
@@ -91,7 +92,16 @@ li{
 
 
 #githubbotao{
-    background-color: aqua;
+    background-color: rgb(129, 129, 129);
     width: 80px;
     height: 30px;
+    border-radius: 5px;
+}
+
+#github{
+    color: black;
+}
+
+#github:hover{
+    color: white;
 }
