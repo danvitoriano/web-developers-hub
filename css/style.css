@@ -33,3 +33,45 @@ header, section, footer{
     text-decoration: none;
     border-radius: 0.5em;
 }
+
+.tituloHeader{
+    text-align: center;
+}
+.sectionPerfil{
+
+    border-radius: 20px;
+    align-items: center;
+    width: 600px;
+    height: 1000px;
+    background-color: #5792ff5b;
+    margin: auto;
+    
+}
+   
+.bodyFundo{
+    background-image:url('../img/background.jpg');
+    background-size: 1920px 1080px;
+}
+
+.sectionPhoto{
+    /*border: green solid 5px;  */ 
+    align-items: center;
+    margin: auto;
+    
+    
+
+}
+
+.allignButtons{
+    /*border: black solid 5px;
+    border-radius: 20px;*/
+    padding-left: 20px;
+    position: relative;
+    left: 200px;
+    width: 220px;
+    align-content: center;
+}
+
+.textoApresentacao{
+    /*border: blue solid;*/
+}
