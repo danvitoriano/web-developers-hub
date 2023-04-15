@@ -38,19 +38,28 @@ header, section, footer{
     text-align: center;
 }
 .sectionPerfil{
-    border: black solid 5px;
-    
+
+    border-radius: 20px;
     align-items: center;
     width: 600px;
     height: 1000px;
+    background-color: #5792ff5b;
     margin: auto;
+    
+}
+   
+.bodyFundo{
+    background-image:url('../img/background.jpg');
+    background-size: 1920px 1080px;
 }
 
 .sectionPhoto{
     /*border: green solid 5px;  */ 
     align-items: center;
     margin: auto;
-    background-image:url'../img/background.jpg';
+    
+    
+
 }
 
 .allignButtons{
@@ -64,5 +73,5 @@ header, section, footer{
 }
 
 .textoApresentacao{
-    border: blue solid;
+    /*border: blue solid;*/
 }
