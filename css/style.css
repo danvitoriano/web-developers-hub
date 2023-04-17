@@ -25,11 +25,11 @@ header, section, footer{
     max-width: 600px;
 }
 .button{
-    background-color: blue;
+    background-color: #000011;
     color: white;
-    padding: 1em;
-    margin: 1em 0;
+    padding: 5px;
+    margin: 5px 0;
     display: inline-block;
     text-decoration: none;
-    border-radius: 0.5em;
+    border-radius: 2px;
 }
