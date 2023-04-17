@@ -33,3 +33,32 @@ header, section, footer{
     text-decoration: none;
     border-radius: 0.5em;
 }
+
+
+.grid-profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "photo title linkedin" "photo description description";
+}
+
+.profile_title {
+    grid-area: title;
+    padding: 0 1rem;
+}
+
+.profile_photo {
+    grid-area: photo;
+    border-radius: 50%;
+}
+
+.profile_linkedin {
+    grid-area: linkedin;
+    height: fit-content;
+    width: fit-content;
+}
+
+.profile_description {
+    grid-area: description;
+    padding: 1rem;
+}
