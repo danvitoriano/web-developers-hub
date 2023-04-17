@@ -1,0 +1,25 @@
+body {
+    font-family: Roboto;
+}
+
+body p i {
+    color: gray;
+}
+
+body div a h1 {
+    margin: 2vh;
+}
+
+div{
+    display: inline-block;
+}
+
+p {
+    margin: 2vh;
+    text-align: justify;
+}
+
+
+.profile {
+    margin: 2vh;
+}
