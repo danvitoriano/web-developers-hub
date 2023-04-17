@@ -1,35 +1,101 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-}
-.menu ul{
-    background-color: #CCC;
+  }
+  .menu ul {
+    background-color: #e62f2f;
     margin: 0;
-    padding: 2em;
-}
-.menu li{
-    display: inline;
-    padding: 0 1em 0 0;
-}
-.menu li a{
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu li {
+    padding: 0 1em;
+    list-style: none;
+  }
+  .menu li a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-header, section, footer{
-    padding: 0 2em;
-}
-#imagem-perfil{
-    width: 100%;
-    max-width: 600px;
-}
-.button{
-    background-color: blue;
     color: white;
-    padding: 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+  .menu li a:hover {
+    color: #EE4C4C;
+  }
+  header, section, footer {
+    padding: 0 2em;
+  }
+  #imagem-perfil-breno {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+    #imagem-perfil{
+        width: 100%;
+        max-width: 600px;
+  }
+
+  .button {
+    background-color: #4177c9;
+    color: white;
+    padding: 1em 1.5em;
     margin: 1em 0;
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
-}
+    transition: all 0.2s ease;
+  }
+  .button:hover {
+    background-color: #FF9B9B;
+    color: white;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+    color: #EE4C4C;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666666;
+  }
+  .about-section {
+    background-color: #FFF0F0;
+    padding: 4em 2em;
+  }
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    color: #EE4C4C;
+  }
+  .about-section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666666;
+  }
+  .skills-section {
+    padding: 4em 2em;
+  }
+  .skills-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    color: #EE4C4C;
+  }
+  .skills-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .skills-section li {
+    margin: 1em;
+    padding: 0.5em;
+    background-color: #FF9B9B;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.5em;
+  }
