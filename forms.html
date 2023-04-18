@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contato</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="JoaovBenjamin.html">Web Developers</a>
+            </li>
+            <li>
+                <a href="forms.html">Entre em contato</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Preencha as informações para que eu entre em contato com o senhores.</h1>
+    </header>
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="tel">Telefone:</label>
+        <input type="tel" name="tel" id="tel">
+        <label for="cidade">Cidade:</label>
+        <select id="cidade" name="cidade">
+          <option value="São Paulo">São Paulo</option>
+          <option value="ABC">ABC</option>
+          <option value="Grande São Paulo">Grande São Paulo</option>
+          <option value="Outro Local Proximo">Outro Local Proxímo</option>
+        </select>
+        <button type="submit">Enviar</button>
+      </form>
+    </form>
+</body>
+</html>
