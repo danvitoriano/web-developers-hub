@@ -55,3 +55,20 @@ body{
     display: block;
   }
   
+header, section, footer{
+    padding: 0 2em;
+}
+#imagem-perfil{
+    width: 50%;
+    max-width: 300px;
+    border-radius: 50%;
+}
+.button{
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    margin: 1em 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
