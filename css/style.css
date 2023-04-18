@@ -32,4 +32,32 @@ header, section, footer{
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+    padding-right: 30px;
+}
+.all {
+    background-color: rgb(106, 90, 205);
+   font-family: Arial, Helvetica, sans-serif; 
+   box-sizing: border-box;
+}
+#img{
+    width: 300px;
+   height: 300px;
+   border: 0px;
+}
+.corpo{
+    border: 50px;
+    border-radius: 20px;
+    padding: 50px;
+}
+fieldset{
+    background-color: #f0f0f0;
+    display: flex;
+    border-radius: 50px;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+}
+#contato{
+   text-align: right;
 }
