@@ -3,20 +3,77 @@ body{
     margin: 0;
     padding: 0;
 }
-.menu ul{
-    background-color: rgb(252, 231, 251);
+.menu {
+    background-color: #242424;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .menu ul {
     margin: 0;
-    padding: 2em;
-}
-.menu li{
-    display: inline;
-    padding: 0 1em 0 0;
-}
-.menu li a{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  
+  .menu li {
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  .menu a {
+    color: #fff;
     text-decoration: none;
-    color: rgb(133, 28, 77);
-    font-weight: bold;
-}
+    transition: all 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #f00;
+  }
+  
+  .submenu ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #3f3f3f;
+    display: none;
+    padding: 10px;
+    width: 260px;
+  }
+  
+  .submenu ul li {
+    padding: 5px;
+  }
+  
+  .submenu:hover ul {
+    display: block;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu ul {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+    }
+    
+    .menu li {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .submenu ul {
+      position: static;
+      display: block;
+      background-color: #444;
+      padding: 10px 0;
+    }
+  }
 header, section, footer{
     padding: 0 2em;
 }
