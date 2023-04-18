@@ -55,39 +55,3 @@ body{
     display: block;
   }
   
-  @media screen and (max-width: 768px) {
-    .menu ul {
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: stretch;
-    }
-    
-    .menu li {
-      width: 100%;
-      text-align: center;
-    }
-    
-    .submenu ul {
-      position: static;
-      display: block;
-      background-color: #444;
-      padding: 10px 0;
-    }
-  }
-header, section, footer{
-    padding: 0 2em;
-}
-#imagem-perfil{
-    width: 50%;
-    max-width: 300px;
-    border-radius: 50%;
-}
-.button{
-    background-color: blue;
-    color: white;
-    padding: 1em;
-    margin: 1em 0;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 0.5em;
-}
