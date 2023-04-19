@@ -24,6 +24,10 @@ header, section, footer{
     width: 100%;
     max-width: 600px;
 }
+#imagem-perfil-gabefeitosa{
+    width: 100%;
+    max-width: 600px;
+}
 .button{
     background-color: blue;
     color: white;
