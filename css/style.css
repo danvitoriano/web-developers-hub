@@ -33,3 +33,60 @@ header, section, footer{
     text-decoration: none;
     border-radius: 0.5em;
 }
+#imagem-vgont{
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#Alura {
+    color: blue;
+    font-weight: bolder;
+}
+
+#GitHub {
+    color: red;
+}
+
+.vbody {
+    background-color: #2ba7c5;
+}
+
+th, td {
+    padding: 15px;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    font-size: large;
+    
+}
+
+.p3{
+    text-align: center;
+    background-color: #CCC;
+}
+
+.text {
+    text-align: center;
+    padding-top: 20%;
+}
+
+label, input {
+    margin: 8px;
+}
+#feedback {
+    padding: 20px;
+}
