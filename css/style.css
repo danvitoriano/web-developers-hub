@@ -22,14 +22,19 @@ header, section, footer{
 }
 #imagem-perfil{
     width: 100%;
-    max-width: 600px;
+    max-width: 300px;
 }
 .button{
-    background-color: blue;
-    color: white;
+    background-color: rgb(111, 24, 131);
+    color: rgb(0, 0, 0);
     padding: 1em;
     margin: 1em 0;
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+   
+}
+.centralizador{
+    text-align: center;
+
 }
