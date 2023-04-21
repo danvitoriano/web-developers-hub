@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -9,8 +13,10 @@ body{
 
 .menu ul{
     background-color: #CCC;
-    margin: 0;
+    margin: 0 auto 60px auto;
     padding: 2em;
+
+    
 }
 .menu li{
     display: inline;
@@ -25,7 +31,7 @@ header, section, footer{
     padding: 0 2em;
 }
 #imagem-perfil{
-    width: 40%;
+    width: 30%;
     max-width: 600px;
 }
 .button1{
@@ -47,23 +53,39 @@ header, section, footer{
     border-radius: 0.5em;
 }
 
+.perfil{
+    margin-left: 40px ;
+}
+
 footer{
     background-color: #CCC;
-    margin: 0;
-    padding: 2em;
+    margin: 60px auto 0 auto;
+    padding: 1em;
+   
 }
-/* ----------- */
-
-/* ALTERAR TAMANHO DA FOTO NO CSS 
-
-Estilizar topo 
-Estilizar spans*/
 
 .texto-cinza{
     color: rgb(88, 88, 88);
+    font-weight: bold;
 }
 
 .texto-negrito, texto-italico{
     font-style: italic;
     font-weight: bold;
+}
+
+.rodape-afastado{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.tamanho-limitado{
+    width: 100%;
+    max-width: 900px;   
+    margin: 0 auto;
+}
+
+h2{
+    margin-top: 40px;
 }
