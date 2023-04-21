@@ -1,12 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
+.texto-centralizado{
+    text-align: center;
+}
+
 .menu ul{
     background-color: #CCC;
-    margin: 0;
+    margin: 0 auto 60px auto;
     padding: 2em;
+
+    
 }
 .menu li{
     display: inline;
@@ -21,10 +31,10 @@ header, section, footer{
     padding: 0 2em;
 }
 #imagem-perfil{
-    width: 100%;
+    width: 30%;
     max-width: 600px;
 }
-.button{
+.button1{
     background-color: blue;
     color: white;
     padding: 1em;
@@ -32,4 +42,50 @@ header, section, footer{
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+}
+.button2{
+    background-color:rgb(53, 53, 53);
+    color: white;
+    padding: 1em;
+    margin: 1em 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
+
+.perfil{
+    margin-left: 40px ;
+}
+
+footer{
+    background-color: #CCC;
+    margin: 60px auto 0 auto;
+    padding: 1em;
+   
+}
+
+.texto-cinza{
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+}
+
+.texto-negrito, texto-italico{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rodape-afastado{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.tamanho-limitado{
+    width: 100%;
+    max-width: 900px;   
+    margin: 0 auto;
+}
+
+h2{
+    margin-top: 40px;
 }
