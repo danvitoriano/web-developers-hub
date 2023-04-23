@@ -22,7 +22,7 @@ header, section, footer{
 }
 #imagem-perfil{
     width: 100%;
-    max-width: 600px;
+    max-width: 350px;
 }
 .button{
     background-color: blue;
@@ -31,5 +31,11 @@ header, section, footer{
     margin: 1em 0;
     display: inline-block;
     text-decoration: none;
+    border-radius: 0.5em;
+}
+h3{
+    background-color: rgba(214, 189, 189, 0.582);
+    padding: 1em;
+    margin: 1em 0;
     border-radius: 0.5em;
 }
