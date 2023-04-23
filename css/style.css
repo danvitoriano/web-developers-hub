@@ -3,26 +3,65 @@ body{
     margin: 0;
     padding: 0;
 }
-.menu ul{
-    background-color: #CCC;
+.menu {
+    background-color: #242424;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .menu ul {
     margin: 0;
-    padding: 2em;
-}
-.menu li{
-    display: inline;
-    padding: 0 1em 0 0;
-}
-.menu li a{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  
+  .menu li {
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  .menu a {
+    color: #fff;
     text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
+    transition: all 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #f00;
+  }
+  
+  .submenu ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #3f3f3f;
+    display: none;
+    padding: 10px;
+    width: 150px;
+  }
+  
+  .submenu ul li {
+    padding: 5px;
+  }
+  
+  .submenu:hover ul {
+    display: block;
+  }
+  
 header, section, footer{
     padding: 0 2em;
 }
 #imagem-perfil{
-    width: 100%;
-    max-width: 600px;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 50%;
 }
 .button{
     background-color: blue;
