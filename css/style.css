@@ -26,23 +26,25 @@ header, section, footer{
 }
 
 .meu_pa{
-    text-align:left;
+    text-align: justify;
+    font-size: 18px;
 }
 
 #imagem-perfil{
-    width: 200px;
+    width: 210px;
     height: 200px;
     float: left;
-    padding: 1px;
+    padding: 15px;
     
 }
 .button{
     background-color: #ad8250;
     color: white;
     padding: 1em;
-    margin: 50px 0;
+    margin: 10px 0;
     display: flex;
     justify-content: center;
     text-decoration: none;
     border-radius: 0.5em;
+    width: 1150px;
 }
