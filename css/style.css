@@ -33,3 +33,15 @@ header, section, footer{
     text-decoration: none;
     border-radius: 0.5em;
 }
+
+.GanLopes section{
+    background-color: rgb(230, 15, 115);
+    padding: 1em;
+    margin: 1em 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.5em;
+       
+
+}
+
