@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
+
 .menu ul{
     background-color: #CCC;
     margin: 0;
@@ -24,6 +27,7 @@ header, section, footer{
     width: 100%;
     max-width: 600px;
 }
+
 .button{
     background-color: blue;
     color: white;
@@ -32,4 +36,98 @@ header, section, footer{
     display: inline-block;
     text-decoration: none;
     border-radius: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+#footerdi{
+    background-color: rgb(191, 191, 191);
+}
+
+#imagem-perfil-diogo{
+    border: 6px inset rgb(194, 194, 194);
+    width: 100%;
+    max-width: 600px;
+}
+
+.githubdi:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.githubdi {
+    color: black;
+    text-decoration: none;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    background-color: rgb(191, 191, 191);
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+}
+
+#descricaodi{
+    text-align: center;
+    background-color: rgb(191, 191, 191);
+    width: 600px;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.pdi{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+@media(max-width: 480px) {
+
+    #descricaodi{
+        text-align: center;
+        background-color: rgb(191, 191, 191);
+        width: 300px;
+        height: 350px;
+        border-radius: 6px;
+    }
+
+
+    #footerdi{
+        background-color: rgb(191, 191, 191);
+        width: 85%;
+    }
+
+    .pdi{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+    }
+
+    .githubdi:hover {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+    }
+    
+    .githubdi {
+        margin-left: 0;
+        margin-top: 0;
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        width: 40px;
+        height: 15px;
+        border-radius: 6px;
+        background-color: rgb(191, 191, 191);
+        padding: 1em;
+        margin: 1em;
+        display: inline-block;
+    }
 }
