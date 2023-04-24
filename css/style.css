@@ -33,3 +33,22 @@ header, section, footer{
     text-decoration: none;
     border-radius: 0.5em;
 }
+
+.section__paragrafo__introducao{
+    color: darkblue
+
+}
+
+
+
+.apresentacao{
+    margin: 17%;
+    display: contents;
+    justify-content: space-between;
+
+}
+
+.gustavo{
+    width: 26%;
+    max-width: 593px;;
+}
