@@ -33,3 +33,7 @@ header, section, footer{
     text-decoration: none;
     border-radius: 0.5em;
 }
+#imagem-perfil2{
+    width: 25%;
+    max-width: 600px;
+}
