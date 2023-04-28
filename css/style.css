@@ -33,3 +33,13 @@ header, section, footer{
     text-decoration: none;
     border-radius: 0.5em;
 }
+
+#imagem-perfil{
+    width: 210px;
+    max-width: 600px;
+    
+}
+
+.meu_pa{
+    text-align: justify;
+}
