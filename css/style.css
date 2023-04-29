@@ -34,6 +34,16 @@ header, section, footer{
     border-radius: 0.5em;
 }
 
+.row{
+    width: 100%;
+}
+.bio{
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .oleoz1n .sizebutton {
     width: 10rem;
     text-align: center;
