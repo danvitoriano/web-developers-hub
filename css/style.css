@@ -19,6 +19,7 @@ body{
 }
 header, section, footer{
     padding: 0 2em;
+    text-align: center;
 }
 #imagem-perfil{
     width: 100%;
