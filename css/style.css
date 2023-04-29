@@ -46,6 +46,7 @@ header, section, footer{
 
 
 
+
 #footerdi{
     background-color: rgb(191, 191, 191);
 }
@@ -130,4 +131,36 @@ header, section, footer{
         margin: 1em;
         display: inline-block;
     }
+
+.row{
+    width: 100%;
+}
+.bio{
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.oleoz1n .sizebutton {
+    width: 10rem;
+    text-align: center;
+}
+
+.oleoz1n .alinhamento-centro p {
+    text-align: center;
+}
+
+.oleoz1n .margin-top-2 {
+    margin-top: 2rem;
+}
+
+.oleoz1n .font-bold {
+    font-weight: bold;
+}
+
+.oleoz1n .direction-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
