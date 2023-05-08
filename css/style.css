@@ -66,3 +66,82 @@ header, section, footer{
     flex-direction: column;
     align-items: center;
 }
+
+/*              no pre-sets-browser                */
+.no-preset {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+/*              flex-box                */
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gap-6 {
+    gap: 6px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+/*              width and height resize                */
+.minmax-width-content {
+    max-width: 900px;
+    min-width: 260px;
+}
+
+.resize-100 {
+    width: 100px;
+    max-height: 100px;
+}
+
+.resize-200 {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.resize-300 {
+    max-width: 300px;
+    height: 20px;
+}
+
+.resize-600 {
+    max-width: 600px;
+    max-height: 600px;
+}
+
+/*              Margin and padding resize               */
+
+.margin-none {
+    margin: 0rem;
+}
+
+.padding-none {
+    padding: 0rem;
+}
+
+/*              hover styles            */
+.hover:hover {
+    background: rgb(60, 60, 254);
+}
