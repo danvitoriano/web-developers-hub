@@ -38,10 +38,6 @@ header, section, footer{
     border-radius: 0.5em;
 }
 
-#footerdi{
-    background-color: rgb(191, 191, 191);
-}
-
 #imagem-perfil-diogo{
     border: 6px inset rgb(194, 194, 194);
     width: 100%;
@@ -62,29 +58,52 @@ header, section, footer{
     background-color: rgb(191, 191, 191);
     padding: 1em;
     margin: 1em;
-    display: inline-block;
 }
 
 #descricaodi{
     text-align: center;
-    background-color: rgb(191, 191, 191);
-    width: 600px;
-    height: 300px;
-    border-radius: 6px;
+    background-color: rgb(165, 165, 165);
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    text-align: center;
+    padding: 10px;
 }
 
 .pdi{
     font-family: 'Poppins', sans-serif;
 }
 
+.diogomoreirax #containerdi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.diogomoreirax #containerdi div{
+    margin: 1em;
+}
+
+.diogomoreirax #containerdi #containerfotodi{
+    width: 800px;
+    height: 500px;
+}
+
+@media (min-width:900px){
+    .diogomoreirax #containerdi{
+        flex-direction: row;
+    }
+    .diogomoreirax #containerdi div{
+        margin: 1em;
+    }
+}
+
+
 @media(max-width: 480px) {
 
-    #descricaodi{
-        text-align: center;
-        background-color: rgb(191, 191, 191);
-        width: 300px;
-        height: 350px;
-        border-radius: 6px;
+    .diogomoreirax #containerdi div{
+        margin: 1em;
     }
 
     #footerdi{
@@ -94,18 +113,16 @@ header, section, footer{
 
     .pdi{
         font-family: 'Poppins', sans-serif;
-        font-size: 12px;
+        font-size: 1em;
     }
 
     .githubdi:hover {
         text-decoration: none;
         color: rgb(255, 255, 255);
-        font-size: 12px;
+        font-size: 1em;
     }
     
     .githubdi {
-        margin-left: 0;
-        margin-top: 0;
         color: black;
         text-decoration: none;
         font-size: 12px;
