@@ -66,3 +66,51 @@ header, section, footer{
     flex-direction: column;
     align-items: center;
 }
+
+.marina-cucco {
+    .direction-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+       
+    
+    .button {
+            background-color: pink;
+            color: white;
+            padding: 1em;
+            margin: 1em 0;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 0.5em;
+            width: 380px;
+            text-align: center;
+    }
+
+    .text-design{
+        text-align: justify;
+        width: 400px;
+
+    }
+    
+    .foot {
+        font-style: oblique;
+        text-align: center;
+        .link {
+            color:pink;
+        }
+    }
+
+    #imagem-perfil{
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+
+    .menu ul{
+        background-color: pink;
+        margin: 0;
+        padding: 2em;
+    }
+}
+
