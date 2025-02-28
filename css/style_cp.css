@@ -1,0 +1,23 @@
+#perfil{
+    width: 30%;
+}
+.navbar ul{
+    background-color: rgb(252, 190, 110);
+}
+.navbar li a{
+    color: black;
+    font-weight: larger;
+    text-decoration: none;
+}
+body{
+    background-color: antiquewhite;
+}
+h3{
+    font-size: 150%;
+}
+.topicos{
+    font-size: 120%;
+}
+p{
+    font-size: 110%;
+}
