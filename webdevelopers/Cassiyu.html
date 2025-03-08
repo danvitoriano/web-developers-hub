@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developers Hub - Cassiyu</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<style>
+    #imagem-perfil{
+        border-radius: 33.3px;
+        margin: 1em 0;
+    }
+    .button1{
+    padding: 0.5em;
+    border-radius: 0.4em;
+    font-weight: bold;
+    border: 1px solid blue;
+    background: transparent;
+    color: blue;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+   
+    }
+    span{
+    background: blue;
+    border-radius: 0.35em;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+    } 
+    .button1:hover span{
+        width: 100%;   
+    }
+    .button1:hover{
+        border: none;
+        color: white;
+    }
+</style>
+<body>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="index.html">Web Developers</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Web Developers</h1>
+    </header>
+    <section>
+        <h2>Cássio Yuji</h2>
+        <img id="imagem-perfil" src="../img/Cassiyuimage.jpg" alt="Cássio Yuji perfil">
+        <a class="button1" href="https://linkedin.com/in/cássio-sakai-b53892266/" target="_blank"><span></span>LinkedIn</a>
+        <p>
+            Olá, meu nome é Cássio Yuji Hirassike Sakai tenho 17 anos de idade e comecei o curso de ADS(Análise e Desenvolvimento de Sistemas) a pouco tempo na FIAP. Há alguns meses atrás, antes de entrar na faculdade, eu pensava em cursar Sistemas de informação, mas por questões pessoais e gerenciamento de tempo, decidi escolher a ADS e não me arrependo da minha escolha. 
+            Sou inciante na área de progamação, então tenho muita experiência nessa áreas, porém o pouco que tenho é o suficiente para descrever aqui.
+        </p>
+        <p>
+            Sou inciante na área de progamação, então não tenho muita experiência nessa áreas, porém o pouco que tenho é o suficiente para descrever aqui. Sobre o HTML(Linguagem de Marcação de Hipertexto), tenho boas impressões sobre a linguagem e o pouco que eu pratiquei mostra que não é tão díficil quanto parece, a linguagem é simples na prática, porém é importante saber usar os códigos da maneira certa 
+            para não bagunçar a estrtura. Já o CSS(Cascading Style Sheets ou Folhas de Estilo em Cascata), gostei considerávelmente, mas usei bastante em alguns projetos pessoais para adquirir mais conhecimento nessa linguagem. Essa linguagem possui diversos código que ajudam a estilizar o seu projeto HTML, quando comecei a usar tive muita dificuldade em usar códigos de posicionamento, mas com o tempo fui me acostumando.
+            Em geral as duas linguagem trabalham perfeitamente juntas, para estruturar e personalizar um site ou projeto HTML. Atualmente aprendi o suficiente para montar uma pequena estrutura de site com estilizações suficientes, então aos pouco estou começando a gostar dessas linguagens.           
+        </p>
+    </section>
+    <footer>
+        <p>
+            Entre em contato <a href="mailto:contato@cassiyu.com.br">contato@cassiyu.com.br</a>
+        </p>
+    </footer>
+</body>
+</html>
