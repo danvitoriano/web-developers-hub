@@ -1,0 +1,61 @@
+nav a:hover {
+    color: brown;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+#Perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid brown;
+}
+
+#Titulo { 
+    color: brown;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 2px;
+}
+
