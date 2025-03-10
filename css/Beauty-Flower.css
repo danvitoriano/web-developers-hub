@@ -1,0 +1,71 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul{
+    background-color: #CCC;
+    margin: 0;
+    padding: 2em;
+}
+.menu li{
+    display: inline;
+    padding: 0 1em 0 0;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header, main, footer{
+    padding: 0 2em;
+}
+
+#perfil{
+    width: 100%;
+    height: 70%;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.photo-container{
+    width: 15%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-container{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.main{
+    display: flex;
+}
+
+.text-container{
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
